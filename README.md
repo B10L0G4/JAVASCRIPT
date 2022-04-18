@@ -1,2 +1,6 @@
 # JAVASCRIPT
-Introdução ao JavaScript
+## Introdução ao JavaScript
+
+
+#### Neste repositório estarão exercícios guiados de aulas iniciais. 
+- 
