@@ -5,7 +5,16 @@
         <meta charset="utf-8">
         <script type="text/javascript" src="js/main.js"></script>
     </head>
-    <body>
+    <body onload="Load()">
         <h1>My Page for first test with JS </h1>
+        <button type="button"onclick="clique()">Clique Aqui</button>
+        <h3 id="Acknowledgment" onclick="redirecionar()"></h3>
+        <p id="Mousemove" onmouseover="change(this)"onmouseout="back(this)">Mouse over Here Now</p>
+        <p id="Mousemove2" onmouseover="change(this)"onmouseout="back(this)">Mouse over Here Too </p>
+        <select onchange="funcaoChange(this)">
+            <option value="1">Valor 1</option>
+            <option value="2">Valor 2</option>
+            <option value="3">Valor 3</option>
+        </select>
     </body>
 </html>

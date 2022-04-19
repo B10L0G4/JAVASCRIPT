@@ -57,13 +57,13 @@ for(count = 0; count <= 5; count++){
     alert(d.getMinutes());
     alert(d.getHours());*/
 
-function soma(n1,n2){ // funções , são utilizadas para chamar uma parte do código em qualquer 
+/*function soma(n1,n2){ // funções , são utilizadas para chamar uma parte do código em qualquer 
     //outra para/trecho do código 
     return n1 + n2 
 };
 alert(soma(5,10))
 
-function setReplace(frase,nome, novo_nome){
+/*function setReplace(frase,nome, novo_nome){
     return frase.replace(nome,novo_nome)
 }
 
@@ -79,4 +79,28 @@ function validaIdade(idade){ // validação de idade utilizando funções
     return validar;
 }
 var idade = prompt("Qual sua idade");
-console.log(validaIdade(idade));    //a função validarIdade esta sendo chamada aqui. 
+console.log(validaIdade(idade));    //a função validarIdade esta sendo chamada aqui. */
+
+function clique(){ 
+    document.getElementById("Acknowledgment").innerHTML="Click Me"; // manipulando elemento web
+    console.log("Thanks")
+}
+function redirecionar(){
+    window.open("https://github.com/B1olog4");// abre em uma nova janela 
+    window.location.href = "https://github.com/B1olog4"; // abre na mesma janela 
+    //vai pegar do documento através do ID eke ira trazer o elemento com o o id estabelecido no HTML 
+}
+function change(elemento){
+    //document.getElementById("Mousemove").innerHTML="Thanks for test with me"// mudar texto on mouse 
+    elemento.innerHTML="Thanks for test with me";
+}
+function back(elemento){
+    //document.getElementById("Mousemove").innerHTML="Mouse Over Here"// mudar texto on mouse 
+    elemento.innerHTML="Mouse Over Here";
+} 
+function Load(){ // quando carrega o body ele carrega a "definição" 
+    alert("Page On")
+}
+function funcaoChange(elemento){
+    console.log(elemento.value); //.value carrega i valor do elemento, sem aspas 
+}
