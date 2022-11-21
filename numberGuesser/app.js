@@ -40,7 +40,6 @@ if (guess === winningNum){
     //Set message
     setMessage(`${winningNum}is correct, YOU WIN`, 'green');
 } else {
-    console.log('erro')
 }
 });
 // Set message
