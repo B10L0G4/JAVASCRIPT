@@ -5,4 +5,4 @@ Primitive Datas Types : Stored directly im the location the variales accesses st
 
 Reference data types accessed by reference objects that are stored on the heap a pointer to location in memory.
 
-Study to javascript inner workings ---
+Study to javascript inner workings ----
